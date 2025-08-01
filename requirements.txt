@@ -1,0 +1,7 @@
+matplotlib
+mplcursors
+python-doctr
+uvicorn
+fastapi
+openai
+python-dotenv
