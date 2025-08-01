@@ -92,6 +92,12 @@ def get_structured_data_from_text(text):
     return response.choices[0].message.content
 
 
+@app.get("/")
+def health_check():
+    return {"status": "API is alive"}
+
+
+
 
 @app.post("/extract-binary")
 async def extract_from_binary(request: Request):
